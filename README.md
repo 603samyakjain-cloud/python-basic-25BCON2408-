@@ -1,91 +1,37 @@
-# python-basic-25BCON2408-
-basic python programme 
-# Factorial Calculator in Python
+# Factorial Program
 
-A simple Python program that calculates the factorial of a given number using an iterative `for` loop.
+A simple beginner Python program that calculates
+the factorial of the fixed value 5 using a loop.
 
-## 📌 Project Description
+## Program
 
-This project demonstrates how to calculate the factorial of a number in Python.
+The repository contains:
 
-The program initializes a number, iterates from `1` to that number, and multiplies each value to calculate the factorial.
+- factorial.py — calculates the factorial of 5.
 
-For example:
+## How It Works
 
-**5! = 5 × 4 × 3 × 2 × 1 = 120**
+The variable fact starts at 1.
 
-## ✨ Features
+A for loop runs from 1 through 5 and repeatedly
+multiplies the current value of fact.
 
-* Calculates the factorial of a number.
-* Uses a simple iterative approach.
-* Beginner-friendly Python implementation.
-* Demonstrates the use of `for` loops and arithmetic operations.
-* Easy to understand and modify.
+## Requirements
 
-## 🛠️ Installation
+- Python 3.x
 
-### 1. Clone the repository
+No external libraries are required.
 
-```bash
-git clone https://github.com/your-username/factorial-python.git
-```
+## Usage
 
-### 2. Navigate to the project directory
+Run:
 
-```bash
-cd factorial-python
-```
-
-### 3. Run the program
-
-```bash
 python factorial.py
-```
 
-## 📋 Requirements
+## Output
 
-* Python 3.x
-* No external libraries or dependencies are required.
+120
 
-## 🚀 Usage
+## Example Calculation
 
-Open `factorial.py` and change the value of `n` to calculate the factorial of a different number.
-
-```python
-n = 5
-fact = 1
-
-for i in range(1, n + 1):
-    fact = fact * i
-
-print("Factorial of", n, "=", fact)
-```
-
-## 💡 Example
-
-### Input
-
-```text
-n = 5
-```
-
-### Output
-
-```text
-Factorial of 5 = 120
-```
-
-## 📁 Project Structure
-
-```text
-factorial-python/
-│
-├── factorial.py
-└── README.md
-```
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute this project with appropriate attribution.
+5 × 4 × 3 × 2 × 1 = 120
